@@ -80,3 +80,7 @@ The assignment is worth 100 points total:
   * 5 points: CSS selectors maintain low complexity (i.e. they're only as specific as they need to be)
 
 In addition to your programming assignment grade, you will receive a pass/fail grade for your code blog entry, included in the code blog portion of your grade.
+
+# Acknowledgements
+
+This assignment was originally developed by [Rob Hess](https://github.com/robwhess) for CS 290 at Oregon State University and is reused with permission. 
