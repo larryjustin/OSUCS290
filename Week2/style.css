@@ -1,0 +1,141 @@
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-title {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 300;
+    background-color: #319df6;
+    color: #ffffff;
+}
+
+.navbar{
+    background-color: #ffffff;
+    line-height: 20px;
+    padding: 5px 0px 5px 5px;
+}
+
+.navlist{
+    margin: 0px 0px 0px 0px;
+    padding: 2px 0px 6px 15px;
+}
+
+.navitem {
+    display: inline-block;
+}
+
+a {
+    color: #343434;
+}
+
+a:hover, a:focus {
+    color: #319df6;
+}
+
+a:focus{
+    outline: none;
+}
+
+.navlink{
+    padding: 0px 10px 0px 10px;
+}
+
+.navlink.active {
+    box-shadow: 0 5px 2px -2px #319df6;
+}
+
+.navbar-search {
+    float: right;
+    margin-right: 20px;
+    padding: 0px 0px 0px 0px;
+}
+
+#navbar-search-input{
+    padding: 2px 2px 2px 2px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 1px solid lightgray;
+    height: 20px;
+    width: 150px;
+    border-radius: 2px;
+}
+
+#navbar-search-button{
+    margin-left: -5px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#navbar-search-button:hover {
+    color: #319df6;
+}
+
+#navbar-search-button:focus {
+    color: #319df6;
+    outline: none;
+}
+
+#navbar-search-input:focus{
+    background-color: #eeeeee;
+}
+
+.twit-container {
+    margin: 50px 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.twit {
+    flex: 0 1 31%;
+    min-width: 220px;
+    display: flex;
+    margin: 3px;
+    background-color: white;
+}
+
+.twit-icon{
+    padding: 15px;
+    font-size: 25px;
+    color: black;
+}
+
+.twit-icon:hover{
+    transform: scale(1.2);
+    padding: 15px;
+    height: 25px;
+    width: 25px;
+    border-radius: 40px;
+    background-color: #319df6;
+    color: white;
+    cursor: pointer;
+}
+
+.twit-attribution{
+    padding: 0px 15px 0px 0px;
+    float: right;
+    font-weight: bold;
+}
+
+#create-twit-button{
+    position: fixed;
+    font-size: 30px;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+}
