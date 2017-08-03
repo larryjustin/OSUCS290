@@ -96,7 +96,7 @@ document.querySelector("#navbar-search-button").addEventListener("click", functi
     //var searching = document.getElementById("navbar-search-input").value;
     //console.log("search button pressed");
     //console.log("search value input: "+searching);
-    document.getElementById("navbar-search-input").value = "Search...";
+    document.getElementById("navbar-search-input").value = "";
 });
 
 //Text input and writing to html, NOT using innerhtml

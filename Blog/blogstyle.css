@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-color: #d3d3d3;
+}
+
+#DateHeading{
+    text-align: center;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+#w1p,#w1i,#w2p{
+    display:none;
+}
+
